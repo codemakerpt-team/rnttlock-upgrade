@@ -71,6 +71,6 @@ repositories {
 dependencies {
   implementation "com.facebook.react:react-android"
   // TTLock SDK dependencies
-  implementation files('libs/TTLockOnPremise.aar')
+  compileOnly files('libs/TTLockOnPremise.aar')
   implementation 'no.nordicsemi.android:dfu:2.5.0'
 }
